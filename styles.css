@@ -1,13 +1,6 @@
 /*
 Color Theme:
 
-f4f4f4 body
-
-f0a500 footer & header
-
-cf7500 buttons
-
-000000 p & headers
 */
 
 
@@ -18,16 +11,30 @@ General Stylings
 ##################################*/
 
 body {
-    background: #f4f4f4;
+    background: #edf4f2;
+    font-size: 62.5%;
 }
 
-header, footer {
-    background: #f0a500;
+header {
+    background: #79d70f;
+}
+
+footer {
+    background: #d32626;
 }
 
 button {
-    background: #000000;
-    color: #cf7500;
+    background: #f5a31a;
+    color: white;
+    border: none;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
 }
 
 .icons {
