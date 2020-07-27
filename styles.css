@@ -1,13 +1,13 @@
 /*
 Color Theme:
 
-f4f4f4 
+f4f4f4 body
 
-f0a500
+f0a500 footer & header
 
-cf7500 
+cf7500 buttons
 
-000000 
+000000 p & headers
 */
 
 
@@ -17,15 +17,30 @@ cf7500
 General Stylings
 ##################################*/
 
-img {
-    height: 100px;
-    width: 100px;
+body {
+    background: #f4f4f4;
+}
+
+header, footer {
+    background: #f0a500;
+}
+
+button {
+    background: #000000;
+    color: #cf7500;
+}
+
+.icons {
+    height: 25px;
+    width: 25px;
 }
 
 
 /*################################
 Header
 ##################################*/
+
+
 
 /*################################
 Main Section
