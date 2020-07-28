@@ -95,16 +95,20 @@ header nav button {
 
 
 /*################################
-Image Section
+Log-In Section
 ##################################*/
 
-.image-section {
-    text-align: center;
+.login-section {
+    background-image:url("https://www.adweek.com/wp-content/uploads/2019/03/dove-chocolate-supports-west-african-women-merchants-content-2019.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
-.image-section img {
-    width:50%;
-}
+
 
 
 /*################################
@@ -176,4 +180,10 @@ footer nav {
 
 footer nav a {
     padding: 0 15px;
+}
+
+.disclaimer {
+    font-size: 0.5rem;
+    font-weight: bold;
+    font-style: italic;
 }
