@@ -51,7 +51,7 @@ h3 {
 
 h4 {
     font-size: 1.25rem;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 a {
@@ -67,7 +67,7 @@ a:hover {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Lora', Serif;
 }
 
@@ -87,17 +87,11 @@ Header
 ##################################*/
 
 header h1 {
-    padding-left: 5px;
+    padding: 0 5px;
 }
 
 header nav a{
     margin: 5px;
-}
-
-@media(max-width: 500px) {
-
-
-
 }
 
 
@@ -120,6 +114,13 @@ Log-In Section
 Main Section
 ##################################*/
 
+.main-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+
 .main-section h2 {
     text-align: center;
     padding: 25px 0;
@@ -129,16 +130,6 @@ Main Section
     padding-bottom: 10px;
 }
 
-.main-section .content{
-    display: flex;
-    flex-wrap:wrap;
-}
-
-.main-section .content img {
-    height: 100%;
-    width: 500px;
-}
-
 .content-box {
     display: flex;
     justify-content: space-evenly;
@@ -146,7 +137,23 @@ Main Section
 }
 
 .content-box div:first-child {
+    height: 100%;
     width: 25%;
+}
+
+@media(max-width: 500px) {
+    .content-box {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .content-box div:first-child {
+        margin: 0 auto;
+        width: 75%;
+    }
+    .content-box div:nth-child(2) {
+        text-align: center;
+        height: 50%;
+    }
 }
 
 
