@@ -3,7 +3,7 @@ Log-In Section
 ##################################*/
 
 .login-section {
-    background-image:url("https://www.adweek.com/wp-content/uploads/2019/03/dove-chocolate-supports-west-african-women-merchants-content-2019.jpg");
+    background-image:url("https://eastafricamonitor.com/wp-content/uploads/2017/01/640px-2DU_Kenya_86_5367322642.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
@@ -15,6 +15,10 @@ Log-In Section
 /*################################
 Main Section
 ##################################*/
+
+.main-section .content-box img {
+    height: 75%;
+}
 
 .main-section .content-box .github-icon {
     height: 30px;
