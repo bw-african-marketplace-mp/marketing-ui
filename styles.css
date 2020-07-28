@@ -36,7 +36,7 @@ button:hover {
     font-weight: bold;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: bold;
     font-family: 'Roboto', Sans-Serif;
 }
@@ -47,6 +47,11 @@ h1, h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    padding: 5px 0;
 }
 
 a {
@@ -107,8 +112,6 @@ Log-In Section
     flex-direction: column-reverse;
     align-items: center;
 }
-
-
 
 
 /*################################
