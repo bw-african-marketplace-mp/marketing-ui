@@ -17,6 +17,9 @@ body {
 
 header {
     background: #79d70f;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -29,6 +32,7 @@ button {
     border: none;
     margin: 10px 0px;
     padding: 5px;
+    border-radius: 25%;
 }
 
 h1, h2, h3 {
@@ -65,10 +69,17 @@ p {
 Header
 ##################################*/
 
-header h1, header nav {
-    margin-left: 5px;
+header h1 {
+    padding-left: 5px;
 }
 
+header nav a{
+    margin: 5px;
+}
+
+header nav button {
+    box-shadow: 10px 5px 5px black;
+}
 
 
 /*################################
