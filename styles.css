@@ -16,6 +16,7 @@ header {
 
 footer {
     background: #d32626;
+    padding: 25px;
 }
 
 button {
@@ -155,3 +156,24 @@ footer div {
     flex-wrap: nowrap;
 }
 
+footer a:hover {
+    color: black;
+}
+
+footer .email-form {
+    display: flex;
+    justify-content: center;
+}
+
+footer form {
+    padding: 0 15px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer nav a {
+    padding: 0 15px;
+}
