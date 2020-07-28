@@ -35,6 +35,12 @@ button {
     border-radius: 25%;
 }
 
+button:hover {
+    background: yellow;
+    color: black;
+    font-weight: bold;
+}
+
 h1, h2, h3 {
     font-weight: bold;
 }
@@ -83,8 +89,25 @@ header nav button {
 
 
 /*################################
+Image Section
+##################################*/
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    width:50%;
+}
+
+
+/*################################
 Main Section
 ##################################*/
+
+
+
+
 
 /*################################
 Footer
