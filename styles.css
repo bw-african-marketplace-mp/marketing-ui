@@ -1,3 +1,12 @@
+/*
+Font-Family: 'Roboto', Sans-Serif;
+Font-Size: 48px;
+
+Font-Family: 'Lora', Serif;
+Font-Size: 14px;
+
+*/
+
 
 /*################################
 General Stylings
@@ -38,6 +47,7 @@ button:hover {
 
 h1, h2, h3 {
     font-weight: bold;
+    font-family: 'Roboto', Sans-Serif;
 }
 
 h1, h2 {
@@ -50,17 +60,19 @@ h3 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 1rem;
+    font-family: 'Roboto', Sans-Serif;
 }
 
 a:hover {
-    color: yellow;
+    color: purple;
 }
 
 p {
     font-size: 1.2rem;
+    font-family: 'Lora', Serif;
 }
 
 .icons {
