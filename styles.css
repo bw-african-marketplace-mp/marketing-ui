@@ -105,7 +105,29 @@ Image Section
 Main Section
 ##################################*/
 
+.main-section h2 {
+    text-align: center;
+}
 
+.main-section .content{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.main-section .content img {
+    height: 250px;
+    width: 250px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.content-box div:first-child {
+    width: 25%;
+}
 
 
 
