@@ -122,6 +122,32 @@ Log-In Section
 
 
 /*################################
+Mission Section
+##################################*/
+
+.mission-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mission-section h2, .mission-section div {
+    padding: 15px 0;
+}
+
+.mission-section div {
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .mission-section div {
+        width: 75%;
+    }
+}
+
+
+/*################################
 Main Section
 ##################################*/
 
@@ -134,7 +160,7 @@ Main Section
 
 .main-section h2 {
     text-align: center;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .main-section h3 {
