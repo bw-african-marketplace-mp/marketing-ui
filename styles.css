@@ -144,7 +144,7 @@ Main Section
 .content-box {
     display: flex;
     justify-content: space-evenly;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .content-box div:first-child {
@@ -152,18 +152,23 @@ Main Section
     width: 25%;
 }
 
+.content-box div:nth-child(2) img {
+    height: 100%;
+    width: 500px;
+}
+
 @media(max-width: 500px) {
     .content-box {
         flex-direction: column-reverse;
-        margin: 0;
     }
     .content-box div:first-child {
         margin: 0 auto;
+        padding: 15px 0;
         width: 75%;
     }
     .content-box div:nth-child(2) {
         text-align: center;
-        height: 50%;
+        height: 100%;
     }
 }
 
@@ -238,9 +243,4 @@ footer nav div a {
     footer nav div a {
         padding: 5px 0;
     }
-    
-    .footer-icons {
-        padding: 15px 0;
-    }
-    
 }
