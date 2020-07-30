@@ -94,6 +94,18 @@ header nav a{
     margin: 5px;
 }
 
+@media (max-width: 800px) {
+    header nav {
+        padding: 15px 0;
+    }
+
+    header nav div:first-child {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
 @media (max-width: 500px) {
     header {
         display: flex;
@@ -138,6 +150,12 @@ Mission Section
 
 .mission-section div {
     width: 50%;
+}
+
+@media (max-width: 800px) {
+    .mission-section div {
+        width: 75%;
+    }
 }
 
 @media (max-width: 500px) {
