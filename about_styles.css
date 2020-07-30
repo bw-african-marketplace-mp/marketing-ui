@@ -206,6 +206,18 @@ Main Section
     padding: 10px 0;
 }
 
+@media (max-width: 800px) {
+    .content-box div:first-child {
+        height: 100%;
+        width: 40%;
+    }
+
+    .content-box div:nth-child(2) img {
+        height: 75%;
+        width: 350px;
+    }
+}
+
 
 @media(max-width: 500px) {
     .content-box {
@@ -278,7 +290,7 @@ footer nav div a {
     text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     footer, footer div:first-child, footer div:nth-child(2) {
         display: flex;
         flex-direction: column;
@@ -293,7 +305,10 @@ footer nav div a {
     footer nav div a {
         padding: 5px 0;
     }
-    
+}
+
+
+@media (max-width: 500px) {
     .footer-icons {
         padding: 15px 0;
     }
